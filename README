@@ -1,0 +1,13 @@
+Program of GameofLife 
+HW4-Parallel Programming
+
+Author: Chi Li
+Date: 04/19/13
+Version: 1.0
+
+MPI library: OpenMPI
+
+Run the program:
+1. copy gameoflife.c into current directory
+2. >mpicc gameoflife.c -o gameoflife
+3. >mpirun -np 16 ./gameoflife
